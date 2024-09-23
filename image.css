@@ -1,0 +1,28 @@
+.img1 {
+  width: 200px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.img2 {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img3 {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100px;
+}
+
+.search-bar {
+  padding: 5px;
+  border-width: 1px;
+  border-color: rgb(0, 195, 255);
+  border-radius: 5px;
+  border-style: solid;
+}
