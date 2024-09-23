@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>
+      Button
+    </title>
+
+    <style>
+
+      .subscribe-button{
+        background-color: rgb(205, 12, 12);
+        color:white;
+        border:none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor:pointer;
+        transition: opacity 0.15s;
+      }
+
+      .subscribe-button:hover{
+        opacity: 0.8;
+      }
+
+      .subscribe-button:active{
+        opacity:0.3;
+      }
+
+      .join-button{
+        background-color: white;
+        color: rgb(48, 135, 178);
+        border-color: rgb(48, 135, 178);
+        height: 36px;
+        width: 80px;
+        cursor: pointer;
+        border-style: solid;
+        border-width:1px;
+        margin-left:8px;
+        transition: background-color 0.15s, color 0.15s;
+      }
+
+      .join-button:hover{
+        background-color:  rgb(48, 135, 178);
+        color: white;
+      }
+
+      .join-button:active{
+        opacity:0.7;
+      }
+
+      .tweet-button{
+        background-color: rgb(0, 115, 255);
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius:18px; /*half of height or width (which ever is lower) */
+        height: 36px;
+        width: 80px;
+        margin-left:8px;
+        font-weight:bold;
+        font-size:15px;
+      }
+
+      .tweet-button:hover{
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+      }
+
+      .tweet-button:active{
+        opacity:0.7;
+      }
+
+      .back-button{
+        padding:8px 5px 8px 5px;
+      }
+
+      .next-button{
+        margin-left:10px;
+        padding:8px 5px 8px 5px;
+      }
+      
+      a{
+        margin-left:10px;
+      }
+
+      .stretch-button{
+        background-color:green;
+        color:white;
+        border:none;
+        padding:10px;
+        cursor:pointer;
+        transition:padding 0.15s;
+      }
+
+      .stretch-button:hover{
+        padding:20px 30px;
+      }
+
+      .shadow-button{
+        background-color:green;
+        color:white;
+        border:none;
+        margin-left:20px;
+        padding:10px;
+        cursor:pointer;
+      }
+
+      .shadow-button:hover{
+        box-shadow:3px 3px 5px rgba(0,0,0,0.5);
+      }
+
+      .shadow-button:active{
+        margin-top: 3px;
+        margin-left: 23px;
+        box-shadow:none;
+      }
+
+      .button2{
+        background-color:green;
+        color:white;
+        border:none;
+        padding:8px 10px;
+        margin-left:10px;
+        margin-right:10px;
+
+      }
+
+      .button2:hover{
+        padding-right:15px;
+        padding-left:15px;
+        margin-left:5px;
+        margin-right:5px;
+        cursor:pointer;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <button class="subscribe-button">
+      Subscribe
+    </button>
+
+    <button class="join-button">
+      Join
+    </button>
+
+    <button class="tweet-button">
+      Tweet
+    </button>
+
+    <br><br>
+    <h1 style="text-align:center">Exercise</h1>
+
+    <div style="text-align:center">
+      <button class="back-button">
+        Back
+      </button>
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+
+      <button class="next-button">
+        Next
+      </button>
+
+    </div>
+
+    <br><br>
+    <button class="stretch-button">
+      Stretch
+    </button>
+
+    <button class="shadow-button">
+      Shadow
+    </button>
+
+    <br><br>
+    <button class="button2">
+      One
+    </button>
+    <button class="button2">
+      Two
+    </button>
+    <button class="button2">
+      Three
+    </button>
+
+  </body>
+</html>
