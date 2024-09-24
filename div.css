@@ -2,6 +2,7 @@
   height: 100px;
   width: 100px;
   background-color: green;
+  margin-bottom: 20px;
 }
 
 .circle {
@@ -9,8 +10,23 @@
   width: 100px;
   background-color: red;
   border-radius: 100px;
-}
-
-div {
   margin-bottom: 20px;
 }
+
+.img1 {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile {
+  border: 1px solid black;
+  display: inline-block;
+  margin: 25px;
+}
+
+p,button {
+  margin: 10px;
+}
+
