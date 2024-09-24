@@ -1,0 +1,18 @@
+.name-input {
+  display: block;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.email-input {
+  display: block;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.para1 {
+  width: 210px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
